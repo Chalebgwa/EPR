@@ -218,7 +218,6 @@ def search_value_table(value,criteria):
     if criteria:
         cls=Patient._adict_[criteria]
         patients=[]
-        print(type(cls))
         if cls.is_basic:
             patients.extend(list(Patient.select(lambda p:getattr(p,criteria)==value)))
         else:
