@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Centra GP</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="/static/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="/static/bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="/static/bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="/static/dist/css/AdminLTE.min.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Google Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+<body class="hold-transition lockscreen">
+<!-- Automatic element centering -->
+<div class="lockscreen-wrapper">
+  <div class="lockscreen-logo">
+    <a><b>CENTRA</b>GP</a>
+  </div>
+ 
+  <div style="position:absolute; padding-left: 150px; top:300px; color:red" id="username-error-dialog"></div>
+  % if not(message == None):
+    <div style="color: red; padding-left: 100px">{{ message }}</div>
+  % end
+  <!-- START LOCK SCREEN ITEM -->
+  <div class="lockscreen-item">
+    <!-- lockscreen image -->
+    <div class="lockscreen-image">
+      <img src="/static/dist/img/user1-128x128.jpg" alt="User Image" width="100px" height="100px">
+    </div>
+    <!-- /.lockscreen-image -->
+
+    <!-- lockscreen credentials (contains the form) -->
+    <form class="lockscreen-credentials" action="/home" id="form" method="POST">
+      <div class="input-group">
+        <input type="text" class="form-control username-error-dialog" name="username" id="username" data-validation="required" data-validation-error-msg="Invalid Username"  data-validation-error-msg-container="#username-error-dialog" placeholder="Username">
+        <input type="password" class="form-control" name="password" id="password" data-validation="required" data-validation-error-msg="Invalid Password"  data-validation-error-msg-container="#password-error-dialog" placeholder="password">
+        <div class="input-group-btn">
+          <button type="submit" id="login" class="btn"><i class="fa fa-arrow-right text-muted"></i></button>
+        </div>
+      </div>
+      
+    </form>
+    <!-- /.lockscreen credentials -->
+  </div>
+  <!-- /.lockscreen-item -->
+  <div style="position:absolute; margin-top: -25px; padding-left: 150px;" id="password-error-dialog"></div>
+  
+</div>
+<!-- /.center -->
+
+<!-- jQuery 3 -->
+<script src="/static/bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="/static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/static/dist/js/app.js"></script>
+<script src="/static/plugins/jQuery_Form_Validator_files/jquery.form-validator.min.js"></script>
+<script type="text/javascript">
+  $.validate({
+        modules : 'date, security',
+        borderColorOnError: 'red',
+    });
+</script>
+</body>
+</html>

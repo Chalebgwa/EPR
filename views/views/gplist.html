@@ -1,0 +1,52 @@
+<!-- patient list -->
+        <div class="col-md-6 hAlign plist" style="padding: 0px;">
+            <div class="box" style="height:88vh;border-right:solid 1px grey; ">
+                <div class="box-header with-border text-center">
+
+                  <h3 class="box-title" style="padding:5px 0px; border-collapse: collapse;">Patients list</h3>
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                    </button>
+                    <button type="button" class="btn btn-box-tool exit" data-widget="remove"><i class="fa fa-times"></i></button>
+                  </div>
+                  <div class="row" style="width: 100%; margin:0px; min-height: 15px; height: auto; ">
+                    <button class="btn btn-flat add_patient" style="position: relative;float: right;">+</button>
+                    <h5 style="position: relative;float: right; margin-right: 25px;">ADD PATIENTS</h5>               
+                  </div>                  
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body" style="height:88vh;">
+                  
+                  <div class="table-responsive scrollbar" id="style-1" style="height:80vh; overflow-y:auto;overflow-x:hidden; border-radius:0px; border-right:solid 1px gray;">
+                    <table id="example2" class="table table-hover plist">
+                      <thead>
+                        <tr>
+                          <th>ID</th>
+                          <th>Name</th>
+                          <th>Status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      %if items is None:
+                        <div style="padding-top: 50px;"><h1>No Patients to show</h1></div>
+                      %else: 
+                        % for item in items:
+                        <tr class="pid">
+                          <td><a  href="">{{ item.user_id }}</a></td>
+                          <td><a  href=""> {{ item.name }}</a></td>
+                          <td>
+                            <div class="sparkbar pid{{item.user_id}}" data-color="#00a65a" data-height="20"><a href="">{{ item.status }}</a></div>
+                          </td>
+                        </tr>
+                        % end
+                      %end
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- /.table-responsive -->
+                </div>
+                <!-- /.box-body -->
+                
+                <!-- /.box-footer -->
+            </div>
+        </div>

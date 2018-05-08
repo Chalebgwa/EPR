@@ -1,0 +1,136 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2018-04-23T13:02:04.030Z",
+        "id": "page_1",
+        "title": "http://localhost:8080/views/index.html",
+        "pageTimings": {
+          "onContentLoad": 3854.5730000187177,
+          "onLoad": 3910.441999993054
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2018-04-23T13:03:29.423Z",
+        "time": 319.81551601542276,
+        "request": {
+          "method": "POST",
+          "url": "http://localhost:8080/user/medhistory",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "x-access-token=\"!tu2A47B63XPpa7skK8nbwA==?gASVgAAAAAAAAACMDngtYWNjZXNzLXRva2VulENpZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SmxlSEFpT2pFMU1qUTBPVEU0TWpGOS5mU3BiRWpNOWtWNTk4VHFlTmE1YkRHSnMxT080T2FHOEtfWm9wYkFLejhvlIaULg==\""
+            },
+            {
+              "name": "Origin",
+              "value": "http://localhost:8080"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8080"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:8080/views/index.html"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "x-access-token",
+              "value": "\"!tu2A47B63XPpa7skK8nbwA==?gASVgAAAAAAAAACMDngtYWNjZXNzLXRva2VulENpZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SmxlSEFpT2pFMU1qUTBPVEU0TWpGOS5mU3BiRWpNOWtWNTk4VHFlTmE1YkRHSnMxT080T2FHOEtfWm9wYkFLejhvlIaULg==\"",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 663,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.0",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 23 Apr 2018 13:03:29 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "WSGIServer/0.2 CPython/3.6.4"
+            },
+            {
+              "name": "Content-Length",
+              "value": "28"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 28,
+            "mimeType": "application/json",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 146,
+          "bodySize": 28,
+          "_transferSize": 174
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.5195160000000616,
+          "dns": 0.004999999999999893,
+          "ssl": -1,
+          "connect": 308.799,
+          "send": 0.5800000000000409,
+          "wait": 4.846999989168694,
+          "receive": 3.0650000262539834,
+          "_blocked_queueing": 0.5160000000614673
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "1225",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}

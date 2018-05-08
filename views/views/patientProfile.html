@@ -1,0 +1,107 @@
+<!-- Patient profile -->
+    		<div class="col-md-12 profile" id="profile" style="padding: 0px;" >
+    			<div class="box" style="height:88vh;border-right:solid 1px grey; ">
+                    <div class="box-header with-border text-center">
+
+                      <h3 class="box-title" style="padding:0px 0px; border-collapse: collapse;">Patient Profile</h3>
+                      <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool exit" data-widget="remove"><i class="fa fa-times"></i></button>
+                      </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body scrollbar" id="style-1"  style="height:81vh; overflow-y:auto;overflow-x:hidden;">
+                      <form role="form">
+                        <div class="box-body" style="">
+    						<div class="col-md-12">
+    							<section class="invoice" style="min-height:75vh; padding-right: 0 auto; padding-left: 0 auto; margin:15px; box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 0px 0 15px -4px rgba(0, 0, 0, 0.8), 0px 0 15px -4px rgba(0, 0, 0, 0.8);">
+    							  <!-- title row -->
+    							  <div class="row">
+    								<div class="col-xs-12">
+    								  <h2 class="page-header">
+    									<i class="fa fa-globe"></i> Centra GP
+    								  </h2>
+    								</div>
+    								<!-- /.col -->
+    							  </div>
+    							  <!-- info row -->
+    							  <div class="row invoice-info">
+    								<div class="col-sm-5 invoice-col">
+    									<br/>
+                                    %if not(item == None):
+    									<h4>Patient Details</h4>
+    									<h5>Patient Name:	{{ item["name"]}} {{ item["surname"]}}</h5>
+    									<h5>Patient DoB:	{{ item["dob"] }}</h5>
+    									<h5>Patient Sex:	Male</h5>
+    									<br/>
+    									<h4>Patient Address</h4>
+    									
+                                            <address>
+        										District: {{ item["address"] }}<br>
+        										City:  {{item["address"]}}<br>
+                                                Town/Village: {{item["address"]}}
+        									</address>
+                                        
+                                            <!--address>
+                                               Patient Address data unavailable
+                                            </address-->
+                                        
+                                    %else:
+                                        <h3>Patient data missing</h3>
+                                    %end
+    								  <h4>General Practioner</h4>
+    								  <address>
+    									<strong>Some GP'S NAME.</strong><br>
+    									795 Folsom Ave, Suite 600<br>
+    									San Francisco, CA 94107
+    								  </address>
+    								</div>
+    								<!-- /.col -->
+    								<div class="col-sm-5 invoice-col pull-right">
+    									<div class="row" style="width: 100%; margin:0px; min-height: 15px; height: auto; ">
+    										<button class="btn btn-flat CNR" style="position: relative;float: right;">></button>
+    										<h5 style="position: relative;float: right;color: black; margin-right: 25px;">Create New Clinical Record</h5>               
+    									</div>
+    									<div class="row" style="width: 100%; margin:0px; min-height: 15px; height: auto; ">
+    										<button class="btn btn-flat med_history" style="position: relative;float: right;">></button>
+    										<h5 style="position: relative;float: right;color: black; margin-right: 25px;">Medical History</h5>              
+    									</div>
+    									<div class="row" style="width: 100%; margin:0px; min-height: 15px; height: auto; ">
+    										<button class="btn btn-flat drug_hist" style="position: relative;float: right;">></button>
+    										<h5 style="position: relative;float: right;color: black; margin-right: 25px;">Drug History</h5>  
+    									</div>
+    									<div class="row" style="width: 100%; margin:0px; min-height: 15px; height: auto; ">
+    										<button class="btn btn-flat social_hist" style="position: relative;float: right;">></button>
+    										<h5 style="position: relative;float: right;color: black; margin-right: 25px;">Social History</h5>          
+    									</div>
+    									<div class="row" style="width: 100%; margin:0px; min-height: 15px; height: auto; ">
+    										<button class="btn btn-flat fam_hist" style="position: relative;float: right;">></button>
+    										<h5 style="position: relative;float: right;color: black; margin-right: 25px;">Family Medical History</h5>               
+    									</div>
+    									<div class="row" style="width: 100%; margin:0px; min-height: 15px; height: auto; ">
+    										<button class="btn btn-flat radH" style="position: relative;float: right;">></button>
+    										<h5 style="position: relative;float: right;color: black; margin-right: 25px;">Radiology Assesement History</h5>             
+    									</div>
+    									<div class="row" style="width: 100%; margin:0px; min-height: 15px; height: auto; ">
+    										<button class="btn btn-flat allergy" style="position: relative;float: right;">></button>
+    										<h5 style="position: relative;float: right;color: black; margin-right: 25px;">Allergies</h5>
+    									</div>
+    								</div>
+    								<!-- /.col -->
+    							  </div>
+    							  <!-- /.row -->
+    							</section>
+    						</div>
+    							<!-- /.col -->
+                          
+                        </div>
+                        <!-- /.box-body -->
+                      </form>
+                      
+                    </div>
+                    <!-- /.box-body -->
+                    
+                    <!-- /.box-footer -->
+                </div>
+
+            </div>	
+    		<!-- /.col -->

@@ -1,0 +1,1252 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2018-03-11T21:31:46.906Z",
+        "id": "page_88",
+        "title": "http://localhost:8080/",
+        "pageTimings": {
+          "onContentLoad": 644.3209999997634,
+          "onLoad": 762.9650000017136
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2018-03-11T21:31:46.906Z",
+        "time": 22.55200000217883,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8080/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8080"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3053.3 Safari/537.36 OPR/46.0.2573.0 (Edition developer)"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 458,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.0",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 11 Mar 2018 21:31:46 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "WSGIServer/0.2 CPython/3.6.4+"
+            },
+            {
+              "name": "Content-Length",
+              "value": "2657"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=UTF-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2657,
+            "mimeType": "text/html",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 157,
+          "bodySize": 2657,
+          "_transferSize": 2814
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.24599999981001,
+          "dns": -1,
+          "connect": -1,
+          "send": 6.20399999752408,
+          "wait": 11.39800000237301,
+          "receive": 3.70400000247173,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "17952",
+        "pageref": "page_88"
+      },
+      {
+        "startedDateTime": "2018-03-11T21:31:46.974Z",
+        "time": 41.31200000119861,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8080/static/bower_components/bootstrap/dist/css/bootstrap.min.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8080"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3053.3 Safari/537.36 OPR/46.0.2573.0 (Edition developer)"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:8080/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 454,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.0",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 11 Mar 2018 21:31:46 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 04 Feb 2018 02:54:56 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "WSGIServer/0.2 CPython/3.6.4+"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "121200"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css; charset=UTF-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 121200,
+            "mimeType": "text/css",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 226,
+          "bodySize": 121200,
+          "_transferSize": 121426
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 9.22100000025239,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.1510000001871905,
+          "wait": 4.1369999962626185,
+          "receive": 27.80300000449641,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "17956",
+        "pageref": "page_88"
+      },
+      {
+        "startedDateTime": "2018-03-11T21:31:46.975Z",
+        "time": 37.79899999790359,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8080/static/bower_components/font-awesome/css/font-awesome.min.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8080"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3053.3 Safari/537.36 OPR/46.0.2573.0 (Edition developer)"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:8080/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 455,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.0",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 11 Mar 2018 21:31:46 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 04 Feb 2018 02:54:56 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "WSGIServer/0.2 CPython/3.6.4+"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "31000"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css; charset=UTF-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 31000,
+            "mimeType": "text/css",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 225,
+          "bodySize": 31000,
+          "_transferSize": 31225
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 9.73599999997532,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.14399999781745088,
+          "wait": 9.45900000078833,
+          "receive": 18.45999999932249,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "17958",
+        "pageref": "page_88"
+      },
+      {
+        "startedDateTime": "2018-03-11T21:31:46.976Z",
+        "time": 52.19999999826541,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8080/static/bower_components/Ionicons/css/ionicons.min.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8080"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3053.3 Safari/537.36 OPR/46.0.2573.0 (Edition developer)"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:8080/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 447,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.0",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 11 Mar 2018 21:31:46 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 04 Feb 2018 02:54:56 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "WSGIServer/0.2 CPython/3.6.4+"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "51284"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css; charset=UTF-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 51284,
+            "mimeType": "text/css",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 225,
+          "bodySize": 51284,
+          "_transferSize": 51509
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 9.09400000091409,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.12699999933830064,
+          "wait": 15.69599999493221,
+          "receive": 27.28300000308081,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "17960",
+        "pageref": "page_88"
+      },
+      {
+        "startedDateTime": "2018-03-11T21:31:46.977Z",
+        "time": 58.09700000099838,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8080/static/dist/css/AdminLTE.min.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8080"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3053.3 Safari/537.36 OPR/46.0.2573.0 (Edition developer)"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:8080/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 426,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.0",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 11 Mar 2018 21:31:47 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Thu, 08 Mar 2018 21:34:09 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "WSGIServer/0.2 CPython/3.6.4+"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "91271"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css; charset=UTF-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 91271,
+            "mimeType": "text/css",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 225,
+          "bodySize": 91271,
+          "_transferSize": 91496
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 8.47900000371737,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.09599999611964982,
+          "wait": 36.83200000523358,
+          "receive": 12.689999995927778,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "17962",
+        "pageref": "page_88"
+      },
+      {
+        "startedDateTime": "2018-03-11T21:31:46.970Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "http://localhost:8080/"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3053.3 Safari/537.36 OPR/46.0.2573.0 (Edition developer)"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "family",
+              "value": "Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 0,
+          "statusText": "",
+          "httpVersion": "unknown",
+          "headers": [],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "x-unknown"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 0,
+          "_error": "net::ERR_INTERNET_DISCONNECTED"
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0,
+          "receive": 0,
+          "ssl": -1
+        },
+        "serverIPAddress": "",
+        "pageref": "page_88"
+      },
+      {
+        "startedDateTime": "2018-03-11T21:31:47.087Z",
+        "time": 4.689000001235399,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8080/static/dist/img/user1-128x128.jpg",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8080"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3053.3 Safari/537.36 OPR/46.0.2573.0 (Edition developer)"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:8080/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 448,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.0",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 11 Mar 2018 21:31:47 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 04 Feb 2018 02:54:56 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "WSGIServer/0.2 CPython/3.6.4+"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "2879"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/jpeg"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2879,
+            "mimeType": "image/jpeg",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 211,
+          "bodySize": 2879,
+          "_transferSize": 3090
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.0550000006333,
+          "dns": 0.02600000152597004,
+          "connect": 0.41500000224915,
+          "send": 0.15200000052573004,
+          "wait": 1.9619999948190499,
+          "receive": 1.0790000014821994,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "18027",
+        "pageref": "page_88"
+      },
+      {
+        "startedDateTime": "2018-03-11T21:31:47.032Z",
+        "time": 25.767999999516178,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8080/static/bower_components/jquery/dist/jquery.min.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8080"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3053.3 Safari/537.36 OPR/46.0.2573.0 (Edition developer)"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:8080/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 428,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.0",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 11 Mar 2018 21:31:47 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 04 Feb 2018 02:54:56 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "WSGIServer/0.2 CPython/3.6.4+"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "86927"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 86927,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 224,
+          "bodySize": 86927,
+          "_transferSize": 87151
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.40000000142027,
+          "dns": -1,
+          "connect": -1,
+          "send": 6.028999996487979,
+          "wait": 0.4249999983585404,
+          "receive": 15.914000003249388,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "17964",
+        "pageref": "page_88"
+      },
+      {
+        "startedDateTime": "2018-03-11T21:31:47.058Z",
+        "time": 20.196000004943926,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8080/static/bower_components/bootstrap/dist/js/bootstrap.min.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8080"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3053.3 Safari/537.36 OPR/46.0.2573.0 (Edition developer)"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:8080/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 437,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.0",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 11 Mar 2018 21:31:47 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 04 Feb 2018 02:54:56 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "WSGIServer/0.2 CPython/3.6.4+"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "37045"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 37045,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 224,
+          "bodySize": 37045,
+          "_transferSize": 37269
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 12.0430000024498,
+          "dns": 0.028000002203100394,
+          "connect": 0.4219999973428994,
+          "send": 0.14999999984870094,
+          "wait": 1.9160000010743001,
+          "receive": 5.637000002025125,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "18015",
+        "pageref": "page_88"
+      },
+      {
+        "startedDateTime": "2018-03-11T21:31:47.078Z",
+        "time": 8.398999998462386,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8080/static/dist/js/app.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8080"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3053.3 Safari/537.36 OPR/46.0.2573.0 (Edition developer)"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:8080/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 400,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.0",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 11 Mar 2018 21:31:47 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 11 Mar 2018 21:04:48 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "WSGIServer/0.2 CPython/3.6.4+"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "7661"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 7661,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 223,
+          "bodySize": 7661,
+          "_transferSize": 7884
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.80499999644235,
+          "dns": 0.03799999831243994,
+          "connect": 0.7300000070245001,
+          "send": 0.19799999427051018,
+          "wait": 3.81600000400794,
+          "receive": 0.8119999984046462,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "18021",
+        "pageref": "page_88"
+      },
+      {
+        "startedDateTime": "2018-03-11T21:31:47.278Z",
+        "time": 5.708999997295905,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8080/static/bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "http://localhost:8080"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8080"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3053.3 Safari/537.36 OPR/46.0.2573.0 (Edition developer)"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:8080/static/bower_components/font-awesome/css/font-awesome.min.css"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "4.7.0"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 547,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.0",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 11 Mar 2018 21:31:47 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 04 Feb 2018 02:54:56 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "WSGIServer/0.2 CPython/3.6.4+"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "77160"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=UTF-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 77160,
+            "mimeType": "text/html",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 226,
+          "bodySize": 77160,
+          "_transferSize": 77386
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.18199999997159,
+          "dns": 0.026000001525980032,
+          "connect": 0.4309999931138,
+          "send": 0.1580000025569399,
+          "wait": 2.0490000024437904,
+          "receive": 1.8629999976838048,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "18034",
+        "pageref": "page_88"
+      },
+      {
+        "startedDateTime": "2018-03-11T21:31:56.469Z",
+        "time": 5.58900000032736,
+        "request": {
+          "method": "POST",
+          "url": "http://localhost:8080/home",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "http://localhost:8080"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8080"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3053.3 Safari/537.36 OPR/46.0.2573.0 (Edition developer)"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:8080/"
+            },
+            {
+              "name": "Content-Length",
+              "value": "25"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 495,
+          "bodySize": 25,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "username=kjh&password=fgh"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.0",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 11 Mar 2018 21:31:56 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "WSGIServer/0.2 CPython/3.6.4+"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=UTF-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/html",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 154,
+          "bodySize": 0,
+          "_transferSize": 154
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.744999997550622,
+          "dns": 0.091000001702923,
+          "connect": 0.45400000090012504,
+          "send": 0.1829999964684199,
+          "wait": 3.32300000445685,
+          "receive": 0.79299999924842,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "18050",
+        "pageref": "page_88"
+      }
+    ]
+  }
+}
+
+
+REQUEST KEYS
+request.keys()
+
+dict_keys(['LS_COLORS', 'XDG_MENU_PREFIX', 'LANG', 'DISPLAY', 'OLDPWD', 'COLORTERM', 'XDG_VTNR', 'SSH_AUTH_SOCK', 'VIRTUAL_ENV', 'GLADE_CATALOG_PATH', 'XDG_SESSION_ID', 'XDG_GREETER_DATA_DIR', 'USER', 'GLADE_MODULE_PATH', 'DESKTOP_SESSION', 'PWD', 'HOME', 'SSH_AGENT_PID', 'QT_ACCESSIBILITY', 'XDG_SESSION_TYPE', 'XDG_DATA_DIRS', 'XDG_SESSION_DESKTOP', 'GLADE_PIXMAP_PATH', 'TERM', 'SHELL', 'VTE_VERSION', 'XDG_SEAT_PATH', 'XDG_CURRENT_DESKTOP', 'SHLVL', 'XDG_SEAT', 'LANGUAGE', 'WINDOWID', 'GDMSESSION', 'LOGNAME', 'DBUS_SESSION_BUS_ADDRESS', 'XDG_RUNTIME_DIR', 'XAUTHORITY', 'XDG_SESSION_PATH', 'XDG_CONFIG_DIRS', 'PATH', 'PS1', 'SESSION_MANAGER', '_', 'BOTTLE_CHILD', 'BOTTLE_LOCKFILE', 'SERVER_NAME', 'GATEWAY_INTERFACE', 'SERVER_PORT', 'REMOTE_HOST', 'CONTENT_LENGTH', 'SCRIPT_NAME', 'SERVER_PROTOCOL', 'SERVER_SOFTWARE', 'REQUEST_METHOD', 'PATH_INFO', 'QUERY_STRING', 'REMOTE_ADDR', 'CONTENT_TYPE', 'HTTP_HOST', 'HTTP_CONNECTION', 'HTTP_PRAGMA', 'HTTP_CACHE_CONTROL', 'HTTP_ORIGIN', 'HTTP_USER_AGENT', 'HTTP_ACCEPT', 'HTTP_X_REQUESTED_WITH', 'HTTP_REFERER', 'HTTP_ACCEPT_ENCODING', 'HTTP_ACCEPT_LANGUAGE', 'wsgi.input', 'wsgi.errors', 'wsgi.version', 'wsgi.run_once', 'wsgi.url_scheme', 'wsgi.multithread', 'wsgi.multiprocess', 'wsgi.file_wrapper', 'bottle.raw_path', 'bottle.app', 'bottle.request', 'route.handle', 'bottle.route', 'route.url_args', 'bottle.get', 'bottle.request.query'])

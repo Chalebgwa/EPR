@@ -1,0 +1,75 @@
+<!-- patient list -->
+        <div class="col-md-6 drugProfile" style="padding:0px" id="aMClist">
+            <div class="box" style="height:88vh;border-right:solid 1px grey; ">
+                <div class="box-header with-border text-center">
+
+                  <h3 class="box-title" style="padding:0px 0px; border-collapse: collapse;">Medical Conditions</h3>
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool exit" data-widget="remove"><i class="fa fa-times"></i></button>
+                  </div>                 
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  
+                  <div class="table-responsive scrollbar" id="style-1" style="height:88vh; overflow-y:auto;overflow-x:hidden; border-radius:0px; border-right:solid 1px gray; padding-top: 5vh; padding-left: 50px; padding-right: 50px;">
+                  
+         <table id="aMCTable" class="table table-hover aMCTable">
+                      <thead>
+                        <tr style="background-color: #222d32; color:white;">
+                          <th>Medical Condition</th>
+                          <th style="padding-left: 30px;padding-right: 0px; margin-left: 50px; margin-right: 0px;"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Elias</td>
+                          <td style="padding-left: 0px;padding-right: 0px; margin-left: 0px; margin-right: 0px;"><span class="pmodify"><span class="add delete"><i class="fa  fa-remove"  style="margin-right: 10px;color: red;"></i>Delete</span></td>
+                        </tr>
+                        <tr>
+                          <td>Elias</td>
+                          <td style="padding-left: 0px;padding-right: 0px; margin-left: 0px; margin-right: 0px;"><span class="pmodify"><span class="add delete"><i class="fa  fa-remove"  style="margin-right: 10px;color: red;"></i>Delete</span></td>
+                        </tr>
+                         <tr>
+                          <td>Elias</td>
+                          <td style="padding-left: 0px;padding-right: 0px; margin-left: 0px; margin-right: 0px;"><span class="pmodify"><span class="add delete"><i class="fa  fa-remove"  style="margin-right: 10px;color: red;"></i>Delete</span></td>
+                        </tr>
+                         <tr>
+                          <td>Elias</td>
+                          <td style="padding-left: 0px;padding-right: 0px; margin-left: 0px; margin-right: 0px;"><span class="pmodify"><span class="add delete"><i class="fa  fa-remove"  style="margin-right: 10px;color: red;"></i>Delete</span></td>
+                        </tr>
+                        <tr>
+                          <td>Elias</td>
+                          <td style="padding-left: 0px;padding-right: 0px; margin-left: 0px; margin-right: 0px;"><span class="pmodify"><span class="add delete"><i class="fa  fa-remove"  style="margin-right: 10px;color: red;"></i>Delete</span></td>
+                        </tr>
+                         <tr>
+                          <td>Elias</td>
+                          <td style="padding-left: 0px;padding-right: 0px; margin-left: 0px; margin-right: 0px;"><span class="pmodify"><span class="add delete"><i class="fa  fa-remove"  style="margin-right: 10px;color: red;"></i>Delete</span></td>
+                        </tr>
+                         <tr>
+                          <td>Elias</td>
+                          <td style="padding-left: 0px;padding-right: 0px; margin-left: 0px; margin-right: 0px;"><span class="pmodify"><span class="add delete"><i class="fa  fa-remove"  style="margin-right: 10px;color: red;"></i>Delete</span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- /.table-responsive -->
+                </div>
+                <!-- /.box-body -->
+                
+                <!-- /.box-footer -->
+            </div>
+
+<script type="text/javascript">
+  $(function () {
+    $('#aMCTable').DataTable({
+      'paging'      : false,
+        'lengthChange': false,
+        'searching'   : true,
+        'ordering'    : false,
+        'info'        : true,
+        'autoWidth'   : false,
+      "pageLength"  : 500
+    });
+  });
+</script>
+        </div>

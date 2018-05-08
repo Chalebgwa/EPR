@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" style="">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+</head>
+<body>
+
+
+
+    <i>{{error_message}}</i>
+    <form action="/login" method="post" class="form">
+        Username: <input name="username" type="text" />
+        Password: <input name="password" type="password" />
+        <input value="Login" action="/login" type="submit" />
+
+    </form>
+
+    <form action="/register" method="get" class="form-control">
+        <input value="Register" action="/register" type="submit" />
+    </form>
+</body>
+</html>

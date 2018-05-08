@@ -1,0 +1,59 @@
+<!-- patient list -->
+    		<div class="col-md-6 list" style="padding: 0px;" id="famhist">
+            <div class="box" style="height:88vh;border-right:solid 1px grey; ">
+                <div class="box-header with-border text-center">
+
+                  <h3 class="box-title" style="padding:0px 0px; border-collapse: collapse;">FAMILY MEDICAL HISTORY</h3>
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool exit" data-widget="remove"><i class="fa fa-times"></i></button>
+                  </div>
+                  <div class="row" style="width: 100%; margin:0px; min-height: 15px; height: auto; ">
+                    <button class="btn btn-flat add_famHist" style="position: relative;float: right;">+</button>
+                    <h5 style="position: relative;float: right; margin-right: 25px;">ADD RECORD</h5>               
+                  </div>                  
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  
+                  <div class="table-responsive scrollbar" id="style-1" style="height:81vh; overflow-y:auto;overflow-x:hidden; border-radius:0px; border-right:solid 1px gray; padding-left: 15px; padding-right: 15px;">
+                    
+                      <table id="fmList" class="table table-hover famHistList">
+                        <thead>
+                          <tr style="background-color: #222d32; color:white;">
+                            <th>Conditionn</th>
+                            <th>Relation</th>
+                            <th>Onset</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        %for id in items:
+                          <tr id={{id}}>
+                            <td>{{items[id]["condition"]["name"]}}</td>
+                            <td>{{items[id]["relation"]["name"] }}{{items[id]["relation"]["surname"]}}</td>
+                            <td>{{items[id]["onset_age"]}}</td>
+                          </tr>
+                        %end
+                        </tbody>
+                      </table>
+                    </div>
+                  
+                  <!-- /.table-responsive -->
+                </div>
+                <!-- /.box-body -->
+                
+                <!-- /.box-footer -->
+            </div>
+  <script>
+ $(function () {
+    $('#fmList').DataTable({
+      'paging'      : false,
+        'lengthChange': false,
+        'searching'   : true,
+        'ordering'    : false,
+        'info'        : true,
+        'autoWidth'   : false,
+      "pageLength"  : 500
+    });
+  });
+</script>
+    		</div>

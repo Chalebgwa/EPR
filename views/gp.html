@@ -1,0 +1,63 @@
+<!-- Patient profile -->
+    		<div class="col-md-12 profile" style="padding: 0px;">
+    			<div class="box" style="height:88vh;border-right:solid 1px grey; ">
+                    <div class="box-header with-border text-center">
+
+                      <h3 class="box-title" style="padding:10px 0px; border-collapse: collapse;">General Practioner</h3>
+                      <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool exit" data-widget="remove"><i class="fa fa-times"></i></button>
+
+                      </div>
+                      	<div class="row" style="width: 100%; margin:0px; min-height: 15px; height: auto;">
+    						<button class="btn btn-flat" style="position: relative;float: right;">></button>
+    							<a href="" ><h5 style="position: relative;float: right;color: black; margin-right: 25px;">Edit Record</h5></a>              
+    				    </div>
+                       
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body scrollbar" id="style-1"  style="height:75vh; overflow-y:auto;overflow-x:hidden; padding-top: 25px;">
+                      <form role="form">
+                        <div class="box-body">
+    						<div class="col-md-12">
+    							<section class="invoice">
+    							  <!-- title row -->
+    							  <div class="row">
+    								<div class="col-xs-12">
+    								  <h2 class="page-header">
+    									<i class="fa fa-globe"></i> Tafara HP. General practioner
+    								  </h2>
+    								</div>
+    								<!-- /.col -->
+    							  </div>
+    							  <!-- info row -->
+    							  <div class="row invoice-info">
+                                        <h4>Name:{{item["name"]}}</h4>
+                                        <h4>Surname:{{item["surname"]}}</h4>
+                                        <h4>UserName:{{item["username"]}}</h4>
+                                        <h4>Work:{{item["hospital"]["name"]}}</h4>
+                                        <h4>Admin:{{item["admin"]}}</h4>
+    							  </div>
+    							  <!-- /.row -->
+
+    							</section>
+    						</div>
+    							<!-- /.col -->
+                          
+                        </div>
+                        <!-- /.box-body -->
+
+                        <div class="box-footer">
+                          
+                        </div>
+                      </form>
+                      
+                    </div>
+                    <!-- /.box-body -->
+                    
+                    <!-- /.box-footer -->
+                </div>
+
+            </div>	
+    		<!-- /.col -->

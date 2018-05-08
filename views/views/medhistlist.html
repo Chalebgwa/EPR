@@ -1,0 +1,99 @@
+      <!-- patient list -->
+        <div class="col-md-6 hAlign" style="padding:0px" id="medhistlist">
+            <div class="box" style="height:88vh;border-right:solid 1px grey; ">
+                <div class="box-header with-border text-center">
+
+                  <h3 class="box-title" style="padding:0px 0px; border-collapse: collapse;">MEDICAL RECORDS</h3>
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool exit" data-widget="remove"><i class="fa fa-times"></i></button>
+                  </div>                 
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  
+                  <div class="table-responsive scrollbar" id="style-1" style="height:81vh; overflow-y:auto;overflow-x:hidden; border-radius:0px; border-right:solid 1px gray; padding-top: 5vh; padding-left: 100px; padding-right: 100px;">
+                  
+         <table class="table table-hover" id="mhList">
+                      <thead>
+                        <tr style="background-color: #222d32; color:white;">
+                          <th>Date</th>
+                          <th>Name</th>
+                          <th>Surname</th>
+                          <th>Sex</th>
+                          <th>Condition</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Elias</td>
+                          <td>Bayona</td>
+                          <td>Male</td>
+                          <td>28-10-1996</td>
+                          <td>77018538</td>
+                        </tr>
+                        <tr>
+                          <td>Elias</td>
+                          <td>Bayona</td>
+                          <td>Male</td>
+                          <td>28-10-1996</td>
+                          <td>77018538</td>
+                        </tr>
+                        <tr>
+                          <td>Elias</td>
+                          <td>Bayona</td>
+                          <td>Male</td>
+                          <td>28-10-1996</td>
+                          <td>77018538</td>
+                        </tr>
+                        <tr>
+                          <td>Elias</td>
+                          <td>Bayona</td>
+                          <td>Male</td>
+                          <td>28-10-1996</td>
+                          <td>77018538</td>
+                        </tr>
+                        <tr >
+                          <td>Elias</td>
+                          <td>Bayona</td>
+                          <td>Male</td>
+                          <td>28-10-1996</td>
+                          <td>77018538</td>
+                        </tr>
+                        <tr>
+                         <td>Elias</td>
+                          <td>Bayona</td>
+                          <td>Male</td>
+                          <td>28-10-1996</td>
+                          <td>77018538</td>
+                        </tr>
+                        <tr>
+                          <td>Elias</td>
+                          <td>Bayona</td>
+                          <td>Male</td>
+                          <td>28-10-1996</td>
+                          <td>77018538</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- /.table-responsive -->
+                </div>
+                <!-- /.box-body -->
+                
+                <!-- /.box-footer -->
+            </div>
+        <!-- Page script -->
+<script>
+ $(function () {
+    $('#mhList').DataTable({
+      'paging'      : false,
+        'lengthChange': false,
+        'searching'   : true,
+        'ordering'    : false,
+        'info'        : true,
+        'autoWidth'   : false,
+      "pageLength"  : 500
+    });
+  })
+</script>
+        </div>

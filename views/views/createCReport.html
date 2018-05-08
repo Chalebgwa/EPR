@@ -1,0 +1,114 @@
+<!-- Create clinical record -->
+        <div class="col-md-12 profile" id="CRForm" style="padding: 0px;">
+          <div class="box" style="height:86vh;border-right:solid 1px grey; ">
+                    <div class="box-header with-border text-center">
+
+                      <h3 class="box-title" style="padding:0px 0px; border-collapse: collapse;">Clinical Record</h3>
+                      <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool exit" data-widget="remove"><i class="fa fa-times"></i></button>
+                      </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body scrollbar" id="style-1" style="height:80vh; overflow-y:auto;overflow-x:hidden; padding-top: 25px;">
+                      <form role="form">
+                        <div class="box-body">
+                <div class="col-md-12">
+                
+                  <section class="invoice" style="min-height:75vh; padding-right: 0 auto; padding-left: 0 auto; margin:15px; box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 0px 0 15px -4px rgba(0, 0, 0, 0.8), 0px 0 15px -4px rgba(0, 0, 0, 0.8);">
+                    <!-- title row -->
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <h2 class="page-header">
+                        <i class="fa fa-globe" id=""></i> Patient Name: 
+                        </h2>
+                      </div>
+                      <!-- /.col -->
+                    </div>
+                    
+                    <!-- info row -->
+                    <div class="row invoice-info">
+                    <div class="col-sm-12 invoice-col">
+                      <form role="form" >
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="epNumber">Episode Number:</label>
+                              <input type="Number" name="epNumber" class="form-control" id="epNumber">
+                            </div>
+                            <div class="form-group">
+                                <label for="origin">Origin:</label>
+                                <input type="text" name="origin" class="form-control" id="origin" placeholder="Hospital, Pharmacy, Clinic">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="symptoms">Symptoms:</label>
+                          <div style="color: red" id="symptoms-error-dialog"></div>
+                          <textarea class="textarea" name="symptomes" id="symptoms" placeholder="Place some text here"
+                          style="width: 100%; height: 100px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" data-validation="required" data-validation-error-msg="Symptoms required"  data-validation-error-msg-container="#symptoms-error-dialog"></textarea>
+                        </div>
+                        <div class="form-group">
+                          <label for="diagnosis">Diagnosis:</label>
+                          <div style="color: red" id="diagnosis-error-dialog"></div>
+                            <textarea class="textarea" name="diagnosis" id="diagnosis" placeholder=""
+                            style="width: 100%; height: 100px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" data-validation="required" data-validation-error-msg="Diagnosis required"  data-validation-error-msg-container="#diagnosis-error-dialog"></textarea>
+                        </div>
+                        <div class="form-group">
+                          <label for="intervention">Intervention:</label>
+                            <textarea class="textarea" name="intervention" id="intervention" placeholder="Surgery procedure, etc"
+                            style="width: 100%; height: 100px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label>Radiology</label>
+                              <select class="form-control select2" name="radiology" id="radiology" multiple="multiple" data-placeholder="select a test type"
+                                      style="width: 100%;">
+                                <option>Ultra sound</option>
+                                <option>X-Ray</option>
+                                <option>Mamogram</option>
+                              </select>
+                            </div>
+                            <!-- /.form-group -->                  
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-flat CRSubmit" type="submit">Submit</button>
+                        </div>
+                      </form>
+
+                    </div>
+                    <!-- /.col -->
+                      <div class="row pull-right">
+                        
+                      </div>
+                    
+                    </div>
+                    <!-- /.row -->
+                  </section>
+                </div>
+                  <!-- /.col -->
+                          
+                        </div>
+                        <!-- /.box-body -->
+                      </form>
+                      
+                    </div>
+                    <!-- /.box-body -->
+                    
+                    <!-- /.box-footer -->
+                </div>
+<script type="text/javascript">
+  $(function () {
+    //Initialize Select2 Elements
+    $('.select2').select2()
+  });
+    $.validate({
+        modules : 'date, security',
+        borderColorOnError: 'red',
+    });
+</script>
+            </div>  
+        <!-- /.col -->

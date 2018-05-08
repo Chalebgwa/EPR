@@ -1,0 +1,69 @@
+<!-- patient list -->
+    		<div class="col-md-6 list" style="padding: 0px;" id="allergylist">
+            <div class="box" style="height:88vh;border-right:solid 1px grey; ">
+                <div class="box-header with-border text-center">
+
+                  <h3 class="box-title" style="padding:0px 0px; border-collapse: collapse;">ALLERGY LIST</h3>
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool exit" data-widget="remove"><i class="fa fa-times"></i></button>
+                  </div>
+                  <div class="row" style="width: 100%; margin:0px; min-height: 15px; height: auto; ">
+                    <button class="btn btn-flat add_allergy" style="position: relative;float: right;">+</button>
+                    <h5 style="position: relative;float: right; margin-right: 25px;">ADD RECORD</h5>               
+                  </div>                  
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  
+                  <div class="table-responsive scrollbar" id="style-1" style="height:78vh; overflow-y:auto;overflow-x:hidden; border-radius:0px; border-right:solid 1px gray; padding-right: 15px; padding-left: 15px;">
+                    <table id="paList" class="table table-hover alist">
+                      <thead>
+                        <tr style="background-color: #222d32; color:white;">
+                          <th>Allergy</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>OR9842</td>
+                        </tr>
+                        <tr>
+                          <td>OR1848</td>
+                        </tr>
+                        <tr>
+                          <td>OR7429</td>
+                        </tr>
+                        <tr>
+                          <td>OR7429</td>
+                        </tr>
+      				          <tr>
+                          <td>OR9842</td>
+                        </tr>
+      				          <tr>
+                          <td>OR9842</td>
+                        </tr>
+      				          <tr>
+                          <td>OR9842</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- /.table-responsive -->
+                </div>
+                <!-- /.box-body -->
+                
+                <!-- /.box-footer -->
+            </div>
+<script>
+ $(function () {
+    $('#paList').DataTable({
+      'paging'      : false,
+        'lengthChange': false,
+        'searching'   : true,
+        'ordering'    : false,
+        'info'        : true,
+        'autoWidth'   : false,
+      "pageLength"  : 500
+    });
+  });
+</script>
+    		</div>
